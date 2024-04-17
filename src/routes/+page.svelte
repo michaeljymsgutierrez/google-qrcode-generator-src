@@ -11,6 +11,12 @@
   }
 
   function onClickGenerate() {
+    const canvas = document.querySelector('#qrcode > canvas');
+    const image = document.querySelector('#qrcode > img');
+
+    if (canvas) canvas.remove();
+    if (image) image.remove();
+
     new QRCode(document.getElementById("qrcode"), value);
   }
 </script>
