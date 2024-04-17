@@ -37,7 +37,7 @@
 
 <style>
   .qrcode-container {
-    height: 100vh;
+    height: 60vh;
     padding: 20px;
   }
 
