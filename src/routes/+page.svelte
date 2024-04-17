@@ -28,7 +28,7 @@
     </a>
   </span>
   <div class="text-field-container">
-    <label>Input text here:</label>
+    <label>Input text here</label>
     <input class="text-field" placeholder="Just another boring input..." on:input={onInput} {value} />
     <button on:click={onClickGenerate}>Generate QR Code</button>
   </div>
@@ -51,13 +51,13 @@
 
   .text-field-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   label {
-    font-size: 16px;
+    font-size: 20px;
     font-family: monospace;
     font-weight: bold;
   }
